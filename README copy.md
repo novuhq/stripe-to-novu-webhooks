@@ -1,12 +1,12 @@
 <div align="center">
   <h1>
-    Stripe Webhooks Events to Novu Workflows
+    Clerk Webhooks Events to Novu Workflows
   </h1>
 </div
 
-This repository contains a simple webhook endpoint that listens for Stripe webhook events and triggers Novu workflows.
+This repository contains a simple webhook endpoint that listens for Clerk webhook events and triggers Novu workflows.
 
-Check out the [Integration Guide](https://docs.novu.co/guides/webhooks/stripe) to learn more.
+Check out the [Integration Guide](https://docs.novu.co/guides/webhooks/clerk) to learn more.
 
 ## Deploy
 
@@ -17,19 +17,20 @@ Easily deploy the template to Vercel with the button below. You will need to set
 ## Running Locally
 
 ```bash
-git clone https://github.com/novuhq/stripe-to-novu-webhooks.git
+git clone https://github.com/novuhq/clerk-to-novu-webhooks.git
 ```
 
-To run the example locally, you need to:    
+To run the example locally, you need to:
 
 1. `npm install` the required dependencies.
 2. `npm run dev` to launch the development server.
 
 ## Learn more
 
-To learn more about Stripe and Novu, check out the following resources:
+To learn more about Clerk and Novu, check out the following resources:
 
+- [Quickstart: Get started with Clerk](https://go.clerk.com/vgWhQ7B)
 - [Quickstart: Get started with Novu](https://docs.novu.co/overview)
-- [Stripe Documentation](https://docs.stripe.com/)
+- [Clerk Documentation](https://go.clerk.com/aNiTioa)
 - [Novu Documentation](https://docs.novu.co)
 - [Next.js Documentation](https://nextjs.org/docs)
